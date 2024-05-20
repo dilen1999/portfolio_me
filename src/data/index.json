@@ -1,0 +1,85 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "src": "./img/product-chain-1.png",
+      "title": "Front-End",
+      "description": "In React, I develop user interfaces for projects like the Cycle-sharing-System, online medicine purchase, and various small projects. My work involves creating interactive and dynamic components, handling user input, and managing state for enhanced user experiences."
+    },
+    {
+      "id": "2",
+      "src": "./img/tag-1.png",
+      "title": "Back-End",
+      "description": "In Spring Boot, I utilize its framework for building robust back-end systems to support projects like the Cycle-sharing-System, online medicine purchase, and various small projects. My tasks include developing RESTful APIs, managing data persistence with databases, and implementing business logic for seamless functionality."
+    },
+    {
+      "id": "3",
+      "src": "./img/feather-pen-2.png",
+      "title": "UI & UX Design",
+      "description": "In UI & UX Design for projects like Cycle-sharing-System, online medicine purchase, and Job portal app, I craft intuitive interfaces through wireframing, prototyping, and user research. My aim is to ensure usability, accessibility, and visual appeal, optimizing user satisfaction across platforms."
+    },
+    {
+      "id": "4",
+      "src": "./img/feather-pen-1.png",
+      "title": "Database",
+      "description": "In Cycle-sharing-System and online medicine purchase, MySQL databases manage structured data, while the Job portal app employs Firebase for real-time syncing and MongoDB for flexible data handling. In various small projects, database choices are tailored for specific needs, ensuring efficient management and scalability."
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "1",
+      "src": "./img/placeholder-image.png",
+      "title": "Cycle Sharing System",
+      "description": "The Cycle Sharing System project involves developing both a mobile app and a web page using React and React Native for versatile user accessibility. Backend functionalities are supported by Spring Boot, ensuring robustness and scalability, while MySQL serves as the database for efficient data management. This monolithic architecture streamlines development and maintenance.",
+      "link": "https://github.com/Cyclesharingsystem"
+    },
+    {
+      "id": "2",
+      "src": "./img/placeholder-image-1.png",
+      "title": "Mobile Application",
+      "description": "JOB GODS is a groundbreaking project developed in semester 5, utilizing Flutter for cross-platform mobile development and Firebase for cloud-based backend services. It revolutionizes job searching by enabling users to effortlessly find vacancies, manage profiles, and reset passwords via OTP, promising seamless and efficient job-seeking experiences.",
+      "link": "https://github.com/dilen1999/Mobile_Application"
+    },
+    {
+      "id": "3",
+      "src": "./img/placeholder-image-2.png",
+      "title": "Online medicine purchase",
+      "description": "My web application project for online medicine purchase, featuring role-based authentication and CRUD functionality. Built with React for dynamic user interfaces, Spring Boot for robust backend support, and MySQL for efficient data management. Revolutionize your online medicine shopping experience with our streamlined solution!",
+      "link": "https://github.com/dilen1999/4-th-semi-react-project"
+    },
+    {
+      "id": "4",
+      "src": "./img/placeholder-image-3.png",
+      "title": "Student Management System",
+      "description": "My WPF (.NET) application, the Student Management System, operates on MVVM Architecture, enabling seamless CRUD operations. Students can register, upload images, and manage their profiles, including GPA addition, streamlining academic record maintenance. ",
+      "link": "https://github.com/dilen1999/WpfMvvm"
+    }
+    
+  ],
+  "testimonial": [
+    {
+      "id": "1",
+      "count": "1",
+      "src": "./img/avatar-image.png",
+      "description": "Team Cypher, secured the Runners-Up spot in the HaXtreme 2.0 coding competition, highlighting our problem-solving skills and teamwork. This success underscores our commitment to innovation and pushing boundaries in coding. With dedication and collaboration, we persist in exploring new horizons in technology.",
+      "author_name": "Dianne Russel",
+      "author_designation": "Starbucks"
+    },
+    {
+      "id": "2",
+      "count": "1",
+      "src": "./img/avatar-image-1.png",
+      "description": "Our Team participated in MORA UXplore 1.0, ranking 14th and gaining invaluable learning experiences in UI/UX design. Through four challenging phases and insightful workshops, we honed our skills in wireframing, user personas, and prototypes, ready to tackle new design challenges with confidence.",
+      "author_name": "Kristin Watson",
+      "author_designation": "Louis Vuitton"
+    },
+    {
+      "id": "3",
+      "count": "1",
+      "src": "./img/avatar-image-2.png",
+      "description": "I have completed the rigorous 2-year Soft Skills Development Certificate Course at the University of Ruhuna's Career Guidance Unit, covering 10 enriching modules. This transformative journey equipped me with invaluable skills and insights, showcased in my portfolio.",
+      "author_name": "Kathryn Murphy",
+      "author_designation": "McDonald's"
+    }
+  ]
+}
