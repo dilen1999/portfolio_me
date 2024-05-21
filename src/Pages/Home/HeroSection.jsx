@@ -1,27 +1,3 @@
-// export default function HeroSection() {
-//   return (
-//     <section id="heroSection" className="hero--section">
-//       <div className="hero--section--content--box">
-//         <div className="hero--section--content">
-//           <p className="section--title">Hey, I'm George Dilen</p>
-//           <h1 className="hero--section--title">
-//             <span className="hero--section-title--color" style={{color:"blue"}}>Full Stack Developer</span>{" "}
-//             <br />
-//             {/* Developer */}
-//           </h1>
-//           <p className="hero--section-description">
-//           I am third-year undergraduate of the Faculty of Engineering, University of Ruhuna. I am reading for a BSc. (Hons.) Degree in Computer Engineering.
-//             {/* <br /> Dolorum, quas. Amet soluta assumenda cum? */}
-//           </p>
-//         </div>
-//         <button className="btn btn-primary">Get In Touch</button>
-//       </div>
-//       <div className="hero--section--img" style={{width:"20vw", height:"70vh",marginLeft: "10vw"}}>
-//         <img src="./img/hero_img.png" alt="Hero Section" />
-//       </div>
-//     </section>
-//   );
-// }
 import { useEffect, useState } from "react";
 import "../HeroSection.css"; // Import your CSS file where you define the animation
 
@@ -38,10 +14,15 @@ export default function HeroSection() {
   }, []);
 
   const handleDownloadCV = () => {
-    // Replace 'cv.pdf' with the path to your CV file
-    const cvUrl = "../img/CV.pdf";
+    // Correct URL for the CV file in the public directory
+    const cvUrl = `${process.env.PUBLIC_URL}/CV.pdf`;
     // Initiating the download
-    window.open(cvUrl, "_blank");
+    const link = document.createElement("a");
+    link.href = cvUrl;
+    link.setAttribute("download", "CV.pdf");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
 
   return (
@@ -59,7 +40,7 @@ export default function HeroSection() {
             I am a third-year undergraduate of the Faculty of Engineering, University of Ruhuna. I am reading for a BSc. (Hons.) Degree in Computer Engineering.
           </p>
         </div>
-        <button className="btn btn-primary" onClick={handleDownloadCV}>dowload CV</button>
+        <button className="btn btn-primary" onClick={handleDownloadCV}>Download CV</button>
       </div>
       <div className="hero--section--img" style={{ width: "20vw", height: "70vh", marginLeft: "10vw" }}>
         <img src="./img/hero_img.png" alt="Hero Section" />
